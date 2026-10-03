@@ -1,0 +1,13 @@
+# Moi truong ao Python
+venv/
+
+# File tam cua Python va Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# File tam cua Excel va Windows
+~$*
+*.tmp
+Thumbs.db
+.DS_Store
