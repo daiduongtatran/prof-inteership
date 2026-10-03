@@ -1,5 +1,5 @@
 # Moi truong ao Python
-venv/
+.venv/
 
 # File tam cua Python va Jupyter
 __pycache__/
@@ -11,3 +11,4 @@ __pycache__/
 *.tmp
 Thumbs.db
 .DS_Store
+data/clean/vnu_that_sach.csv
