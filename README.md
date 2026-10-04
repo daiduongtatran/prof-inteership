@@ -111,3 +111,6 @@ Quy ước mã dùng chung cho 9 cột dưới đây:
 - **Xử lý dữ liệu nhiễu & bất thường:** 
   - Đã phát hiện và **xóa bỏ hoàn toàn** 231 dòng trùng lặp y hệt nhau ở cả 22 biến. *Lý do:* Đây là lỗi spam/double-click, nếu giữ lại sẽ làm sai lệch nghiêm trọng phân phối thực tế.
   - Đã **đánh dấu cờ (Flagging)** vào cột `Tra_loi_deu` đối với 442 dòng chọn đúng một mức ở cả 9 câu nhóm B. *Lý do:* Đây là biểu hiện của việc trả lời qua loa (straight-lining). Việc đánh dấu giúp nhóm linh hoạt cô lập và kiểm định riêng tệp dữ liệu này thay vì xóa bỏ tự động.
+
+
+  streamlit run dashboard/app.py
