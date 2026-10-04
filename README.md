@@ -96,3 +96,18 @@ Quy ước mã dùng chung cho 9 cột dưới đây:
 3. Tạo cột nhóm GPA (Yếu, Trung bình, Khá, Giỏi, Xuất sắc) và nhóm thời gian tự học đã gộp (mức 1–3, mức 4, mức 5).
 4. Đánh dấu dòng trùng và dòng chọn một mức ở cả 9 câu nhóm B.
 5. Ghi nhật ký làm sạch: số dòng trước và sau, từng thay đổi và lý do.
+
+### Nhật ký làm sạch dữ liệu (Ngày 04/10/2026)
+
+**1. Biến động số lượng bản ghi (Dòng):**
+- **Trước khi làm sạch:** 2.770 bản ghi.
+- **Sau khi làm sạch:** 2.539 bản ghi (Đã loại bỏ 231 bản ghi rác).
+
+**2. Chi tiết các bước thay đổi và Lý do:**
+- **Giải mã & Đổi tên (Mapping & Renaming):** 
+  - Đã giải mã toàn bộ các cột mã số thành nhãn chữ cái trực quan dựa theo bảng Codebook. 
+  - Đổi tên các cột bị sai chính tả gốc gồm `Time_SocicalMedia`, `Facilitie_Uni`, `InfuenceF_Friends` để đặt tên thống nhất cho dữ liệu.
+  - *Lý do:* Đảm bảo tính toàn vẹn và dễ đọc cho file CSV cuối cùng, tạo thuận lợi khi chuyển giao file sạch và khi lên biểu đồ phân tích.
+- **Xử lý dữ liệu nhiễu & bất thường:** 
+  - Đã phát hiện và **xóa bỏ hoàn toàn** 231 dòng trùng lặp y hệt nhau ở cả 22 biến. *Lý do:* Đây là lỗi spam/double-click, nếu giữ lại sẽ làm sai lệch nghiêm trọng phân phối thực tế.
+  - Đã **đánh dấu cờ (Flagging)** vào cột `Tra_loi_deu` đối với 442 dòng chọn đúng một mức ở cả 9 câu nhóm B. *Lý do:* Đây là biểu hiện của việc trả lời qua loa (straight-lining). Việc đánh dấu giúp nhóm linh hoạt cô lập và kiểm định riêng tệp dữ liệu này thay vì xóa bỏ tự động.
