@@ -1,0 +1,665 @@
+﻿chi_so,nhom,n,gia_tri,p,mau,ghi_chu
+Tần suất GPA,Yếu (Dưới 2.0),1944,59.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Yếu (Dưới 2.0),1944,3.03,,Tất cả dòng thật,
+Tần suất GPA,Trung bình (2.0 - 2.5),1944,106.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Trung bình (2.0 - 2.5),1944,5.45,,Tất cả dòng thật,
+Tần suất GPA,Khá (2.5 - 3.2),1944,1079.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Khá (2.5 - 3.2),1944,55.5,,Tất cả dòng thật,
+Tần suất GPA,Giỏi (3.2 - 3.6),1944,607.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Giỏi (3.2 - 3.6),1944,31.22,,Tất cả dòng thật,
+Tần suất GPA,Xuất sắc (Trên 3.6),1944,93.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Xuất sắc (Trên 3.6),1944,4.78,,Tất cả dòng thật,
+Tỉ lệ GPA mức 4-5 (%),Toàn mẫu,1944,36.0082,,Tất cả dòng thật,
+Mức GPA trung vị,Toàn mẫu,1944,3.0,,Tất cả dòng thật,Khá (2.5 - 3.2)
+Điểm TB Chất lượng Giảng viên,Toàn mẫu,1944,4.33,,Tất cả dòng thật,
+Điểm TB Sự hỗ trợ từ Giảng viên,Toàn mẫu,1944,4.18,,Tất cả dòng thật,
+Điểm TB Chương trình đào tạo,Toàn mẫu,1944,4.12,,Tất cả dòng thật,
+Điểm TB Cơ sở vật chất,Toàn mẫu,1944,4.07,,Tất cả dòng thật,
+Điểm TB Sự hỗ trợ từ Trường,Toàn mẫu,1944,3.99,,Tất cả dòng thật,
+Điểm TB Sự cạnh tranh trong lớp,Toàn mẫu,1944,3.94,,Tất cả dòng thật,
+Điểm TB Ảnh hưởng từ bạn bè,Toàn mẫu,1944,3.83,,Tất cả dòng thật,
+Điểm TB Phương pháp học tập,Toàn mẫu,1944,3.62,,Tất cả dòng thật,
+Điểm TB Mức độ thích nghi ĐH,Toàn mẫu,1944,3.46,,Tất cả dòng thật,
+Spearman GPA ~ TG tự học,Toàn mẫu,1944,0.099,1.1245895060406512e-05,Tất cả dòng thật,Rất yếu
+Spearman GPA ~ TG dành cho bạn bè,Toàn mẫu,1944,-0.035,0.12456103446476716,Tất cả dòng thật,Rất yếu
+Spearman GPA ~ TG dùng mạng xã hội,Toàn mẫu,1944,-0.062,0.006035150610701197,Tất cả dòng thật,Rất yếu
+Tỉ lệ GPA mức 4-5 (%) theo Giới tính,Nam,217,30.88,0.019948075742875437,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Giới tính,Nam,217,3.0,0.019948075742875437,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Giới tính,Nữ,1727,36.65,0.019948075742875437,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Giới tính,Nữ,1727,3.0,0.019948075742875437,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Giới tính,Nam,217,3.57,0.08290228228391172,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Giới tính,Nữ,1727,3.45,0.08290228228391172,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Giới tính,Nam,217,3.63,0.8706718100063183,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Giới tính,Nữ,1727,3.62,0.8706718100063183,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Giới tính,Nam,217,4.05,0.48600450690724795,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Giới tính,Nữ,1727,3.99,0.48600450690724795,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Giới tính,Nam,217,4.24,0.2542834428140388,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Giới tính,Nữ,1727,4.17,0.2542834428140388,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Giới tính,Nam,217,4.06,0.711700496685973,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Giới tính,Nữ,1727,4.07,0.711700496685973,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Giới tính,Nam,217,4.44,0.07152040199752059,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Giới tính,Nữ,1727,4.32,0.07152040199752059,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Giới tính,Nam,217,4.13,0.7822517417182159,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Giới tính,Nữ,1727,4.12,0.7822517417182159,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Giới tính,Nam,217,4.0,0.27750417393114213,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Giới tính,Nữ,1727,3.93,0.27750417393114213,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Giới tính,Nam,217,4.0,0.004060452140606221,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Giới tính,Nữ,1727,3.81,0.004060452140606221,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Diện chính sách,Có,711,29.96,0.00042035669575762267,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Diện chính sách,Có,711,3.0,0.00042035669575762267,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Diện chính sách,Không,1233,39.5,0.00042035669575762267,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Diện chính sách,Không,1233,3.0,0.00042035669575762267,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Diện chính sách,Có,711,3.39,0.012860865497813718,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Diện chính sách,Không,1233,3.5,0.012860865497813718,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Diện chính sách,Có,711,3.54,0.0043296366609806205,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Diện chính sách,Không,1233,3.67,0.0043296366609806205,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Diện chính sách,Có,711,4.04,0.05937109231284149,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Diện chính sách,Không,1233,3.97,0.05937109231284149,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Diện chính sách,Có,711,4.16,0.9306261150508626,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Diện chính sách,Không,1233,4.19,0.9306261150508626,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Diện chính sách,Có,711,4.14,0.004764728500157139,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Diện chính sách,Không,1233,4.02,0.004764728500157139,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Diện chính sách,Có,711,4.35,0.15623658980931174,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Diện chính sách,Không,1233,4.32,0.15623658980931174,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Diện chính sách,Có,711,4.17,0.02337402395460253,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Diện chính sách,Không,1233,4.09,0.02337402395460253,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Diện chính sách,Có,711,4.0,0.01833394647146587,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Diện chính sách,Không,1233,3.9,0.01833394647146587,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Diện chính sách,Có,711,3.83,0.9110849089118802,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Diện chính sách,Không,1233,3.83,0.9110849089118802,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Hộ nghèo,Có,84,23.81,0.09777127166023115,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Hộ nghèo,Có,84,3.0,0.09777127166023115,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Hộ nghèo,Không,1860,36.56,0.09777127166023115,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Hộ nghèo,Không,1860,3.0,0.09777127166023115,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Hộ nghèo,Có,84,3.45,0.9289022639866047,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Hộ nghèo,Không,1860,3.46,0.9289022639866047,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Hộ nghèo,Có,84,3.51,0.32383468740507637,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Hộ nghèo,Không,1860,3.63,0.32383468740507637,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Hộ nghèo,Có,84,4.18,0.009786770019488092,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Hộ nghèo,Không,1860,3.99,0.009786770019488092,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Hộ nghèo,Có,84,4.32,0.1430245306504845,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Hộ nghèo,Không,1860,4.17,0.1430245306504845,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Hộ nghèo,Có,84,4.06,0.6555877703344624,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Hộ nghèo,Không,1860,4.07,0.6555877703344624,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Hộ nghèo,Có,84,4.6,0.008561114993025245,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Hộ nghèo,Không,1860,4.32,0.008561114993025245,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Hộ nghèo,Có,84,4.23,0.306827273166847,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Hộ nghèo,Không,1860,4.11,0.306827273166847,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Hộ nghèo,Có,84,4.1,0.12140701318447776,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Hộ nghèo,Không,1860,3.93,0.12140701318447776,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Hộ nghèo,Có,84,4.04,0.02803454945732598,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Hộ nghèo,Không,1860,3.82,0.02803454945732598,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Dân tộc thiểu số,Có,127,22.83,0.06474133547023067,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Dân tộc thiểu số,Có,127,3.0,0.06474133547023067,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Dân tộc thiểu số,Không,1817,36.93,0.06474133547023067,Tất cả dòng thật,Mann-Whitney U
+Trung vị mức GPA theo Dân tộc thiểu số,Không,1817,3.0,0.06474133547023067,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Dân tộc thiểu số,Có,127,3.34,0.045484527063933244,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Dân tộc thiểu số,Không,1817,3.47,0.045484527063933244,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Dân tộc thiểu số,Có,127,3.3,2.4573716212638204e-05,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Dân tộc thiểu số,Không,1817,3.65,2.4573716212638204e-05,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Dân tộc thiểu số,Có,127,4.09,0.34809440417353754,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Dân tộc thiểu số,Không,1817,3.99,0.34809440417353754,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Dân tộc thiểu số,Có,127,4.19,0.6889250489385452,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Dân tộc thiểu số,Không,1817,4.18,0.6889250489385452,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Dân tộc thiểu số,Có,127,4.28,0.013717383358326467,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Dân tộc thiểu số,Không,1817,4.05,0.013717383358326467,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Dân tộc thiểu số,Có,127,4.41,0.3231144447573274,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Dân tộc thiểu số,Không,1817,4.32,0.3231144447573274,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Dân tộc thiểu số,Có,127,4.17,0.5550394155344933,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Dân tộc thiểu số,Không,1817,4.12,0.5550394155344933,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Dân tộc thiểu số,Có,127,3.92,0.7129561258542777,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Dân tộc thiểu số,Không,1817,3.94,0.7129561258542777,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Dân tộc thiểu số,Có,127,3.67,0.008927139338013786,Tất cả dòng thật,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Dân tộc thiểu số,Không,1817,3.84,0.008927139338013786,Tất cả dòng thật,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Năm ba,135,25.93,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Năm ba,135,3.0,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Năm tư,409,22.74,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Năm tư,409,3.0,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Đã tốt nghiệp,1400,40.86,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Đã tốt nghiệp,1400,3.0,2.3316057073295267e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Năm ba,135,3.21,6.025755447691824e-09,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Năm tư,409,3.27,6.025755447691824e-09,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Đã tốt nghiệp,1400,3.54,6.025755447691824e-09,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Năm ba,135,3.34,2.4433381118279353e-35,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Năm tư,409,3.15,2.4433381118279353e-35,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Đã tốt nghiệp,1400,3.79,2.4433381118279353e-35,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Năm ba,135,4.26,1.0890991456596507e-28,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Năm tư,409,3.43,1.0890991456596507e-28,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Đã tốt nghiệp,1400,4.13,1.0890991456596507e-28,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Năm ba,135,4.15,0.41712510300996486,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Năm tư,409,4.14,0.41712510300996486,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Đã tốt nghiệp,1400,4.19,0.41712510300996486,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Năm ba,135,4.5,8.740585415424336e-39,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Năm tư,409,3.44,8.740585415424336e-39,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Đã tốt nghiệp,1400,4.2,8.740585415424336e-39,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Năm ba,135,4.48,0.0028999772715506394,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Năm tư,409,4.2,0.0028999772715506394,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Đã tốt nghiệp,1400,4.35,0.0028999772715506394,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Năm ba,135,4.3,5.084089082545412e-18,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Năm tư,409,3.78,5.084089082545412e-18,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Đã tốt nghiệp,1400,4.2,5.084089082545412e-18,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Năm ba,135,3.74,2.1077282862575716e-14,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Năm tư,409,3.67,2.1077282862575716e-14,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Đã tốt nghiệp,1400,4.03,2.1077282862575716e-14,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Năm ba,135,3.68,1.3674562919752176e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Năm tư,409,3.67,1.3674562919752176e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Đã tốt nghiệp,1400,3.89,1.3674562919752176e-06,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Tiểu học,116,22.41,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Tiểu học,116,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,THCS,264,25.76,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,THCS,264,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,THPT,540,33.33,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,THPT,540,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Cao đẳng,337,41.25,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Cao đẳng,337,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Đại học/Sau đại học,550,41.82,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Đại học/Sau đại học,550,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Khác,137,41.61,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Khác,137,3.0,3.2039203000484155e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Tiểu học,116,3.28,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,THCS,264,3.28,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,THPT,540,3.34,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Cao đẳng,337,3.36,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Đại học/Sau đại học,550,3.73,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Khác,137,3.6,5.885951149696331e-16,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Tiểu học,116,3.28,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,THCS,264,3.45,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,THPT,540,3.47,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Cao đẳng,337,3.58,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Đại học/Sau đại học,550,3.88,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Khác,137,3.89,6.220108027890844e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Tiểu học,116,3.84,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,THCS,264,3.92,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,THPT,540,3.87,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Cao đẳng,337,3.93,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Đại học/Sau đại học,550,4.2,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Khác,137,4.09,1.6506097512672422e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Tiểu học,116,4.03,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,THCS,264,4.12,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,THPT,540,4.14,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Cao đẳng,337,4.08,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Đại học/Sau đại học,550,4.35,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Khác,137,4.15,3.775959097898659e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Tiểu học,116,3.86,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,THCS,264,3.98,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,THPT,540,3.95,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Cao đẳng,337,4.0,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Đại học/Sau đại học,550,4.24,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Khác,137,4.29,1.945546992155867e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Tiểu học,116,4.26,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,THCS,264,4.34,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,THPT,540,4.21,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Cao đẳng,337,4.28,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Đại học/Sau đại học,550,4.48,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Khác,137,4.36,8.698030298434345e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Tiểu học,116,4.06,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,THCS,264,4.03,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,THPT,540,4.05,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Cao đẳng,337,4.02,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Đại học/Sau đại học,550,4.27,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Khác,137,4.28,3.331343498906226e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Tiểu học,116,3.89,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,THCS,264,3.95,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,THPT,540,3.83,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Cao đẳng,337,3.85,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Đại học/Sau đại học,550,4.08,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Khác,137,4.04,7.212669712807503e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Tiểu học,116,3.83,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,THCS,264,3.83,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,THPT,540,3.74,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Cao đẳng,337,3.75,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Đại học/Sau đại học,550,3.95,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Khác,137,3.85,0.0008384570251794943,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Tiểu học,121,21.49,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Tiểu học,121,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,THCS,282,25.53,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,THCS,282,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,THPT,523,32.89,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,THPT,523,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Cao đẳng,444,39.41,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Cao đẳng,444,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Đại học/Sau đại học,434,45.39,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Đại học/Sau đại học,434,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Khác,140,41.43,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Khác,140,3.0,3.833680558612245e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Tiểu học,121,3.24,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,THCS,282,3.16,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,THPT,523,3.39,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Cao đẳng,444,3.45,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Đại học/Sau đại học,434,3.8,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Khác,140,3.51,2.6497557807328555e-19,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Tiểu học,121,3.37,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,THCS,282,3.28,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,THPT,523,3.53,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Cao đẳng,444,3.63,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Đại học/Sau đại học,434,3.95,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Khác,140,3.84,6.569455941900149e-23,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Tiểu học,121,3.85,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,THCS,282,3.7,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,THPT,523,3.97,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Cao đẳng,444,3.94,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.29,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Khác,140,4.07,7.97122515188237e-12,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Tiểu học,121,4.26,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,THCS,282,4.02,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,THPT,523,4.1,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Cao đẳng,444,4.2,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.36,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Khác,140,4.1,3.312470041041829e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Tiểu học,121,3.78,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,THCS,282,3.8,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,THPT,523,4.1,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Cao đẳng,444,4.0,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.27,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Khác,140,4.29,5.708869543588178e-10,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Tiểu học,121,4.36,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,THCS,282,4.29,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,THPT,523,4.24,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Cao đẳng,444,4.3,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.46,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Khác,140,4.43,6.978244316300655e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Tiểu học,121,4.11,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,THCS,282,3.98,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,THPT,523,4.04,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Cao đẳng,444,4.07,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.31,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Khác,140,4.26,2.5283938489272968e-08,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Tiểu học,121,4.05,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,THCS,282,3.85,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,THPT,523,3.83,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Cao đẳng,444,3.89,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.11,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Khác,140,4.02,2.333250576965671e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Tiểu học,121,3.93,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,THCS,282,3.7,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,THPT,523,3.74,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Cao đẳng,444,3.8,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Đại học/Sau đại học,434,4.01,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Khác,140,3.86,4.910774352565577e-06,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Dưới 2 giờ,17,29.41,3.3539515508183706e-05,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Trung vị mức GPA theo TG tự học,Dưới 2 giờ,17,3.0,3.3539515508183706e-05,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 2 đến dưới 4 giờ,44,20.45,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.0,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 4 đến dưới 6 giờ,68,30.88,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.0,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 6 đến dưới 8 giờ,228,32.89,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.0,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Hơn 8 giờ,1587,37.18,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Hơn 8 giờ,1587,3.0,3.3539515508183706e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Dưới 2 giờ,17,3.18,1.8014135218954364e-05,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.39,1.8014135218954364e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.12,1.8014135218954364e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.31,1.8014135218954364e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Hơn 8 giờ,1587,3.5,1.8014135218954364e-05,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Dưới 2 giờ,17,3.18,7.52660898342983e-07,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Phương pháp học tập theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.18,7.52660898342983e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.32,7.52660898342983e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.44,7.52660898342983e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Hơn 8 giờ,1587,3.68,7.52660898342983e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Dưới 2 giờ,17,3.35,3.010606422381129e-07,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.73,3.010606422381129e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.6,3.010606422381129e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.72,3.010606422381129e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Hơn 8 giờ,1587,4.06,3.010606422381129e-07,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Dưới 2 giờ,17,3.59,0.06561389370575489,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 2 đến dưới 4 giờ,44,4.2,0.06561389370575489,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 4 đến dưới 6 giờ,68,4.12,0.06561389370575489,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 6 đến dưới 8 giờ,228,4.31,0.06561389370575489,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Hơn 8 giờ,1587,4.17,0.06561389370575489,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Dưới 2 giờ,17,3.41,0.0012651518185994083,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.48,0.0012651518185994083,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.82,0.0012651518185994083,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.95,0.0012651518185994083,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Hơn 8 giờ,1587,4.12,0.0012651518185994083,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Dưới 2 giờ,17,3.94,0.04104882713367119,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 2 đến dưới 4 giờ,44,4.27,0.04104882713367119,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 4 đến dưới 6 giờ,68,4.24,0.04104882713367119,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 6 đến dưới 8 giờ,228,4.49,0.04104882713367119,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Hơn 8 giờ,1587,4.32,0.04104882713367119,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Dưới 2 giờ,17,3.82,0.019548172441644418,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.82,0.019548172441644418,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.93,0.019548172441644418,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 6 đến dưới 8 giờ,228,4.17,0.019548172441644418,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Hơn 8 giờ,1587,4.13,0.019548172441644418,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Dưới 2 giờ,17,3.47,0.9042366787010512,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.98,0.9042366787010512,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.85,0.9042366787010512,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.96,0.9042366787010512,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Hơn 8 giờ,1587,3.94,0.9042366787010512,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Dưới 2 giờ,17,3.35,0.28570052754759157,Tất cả dòng thật,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 2 đến dưới 4 giờ,44,3.75,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.63,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.84,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Hơn 8 giờ,1587,3.84,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
+Tần suất GPA,Yếu (Dưới 2.0),1597,43.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Yếu (Dưới 2.0),1597,2.69,,Bỏ dòng trả lời một mức,
+Tần suất GPA,Trung bình (2.0 - 2.5),1597,88.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Trung bình (2.0 - 2.5),1597,5.51,,Bỏ dòng trả lời một mức,
+Tần suất GPA,Khá (2.5 - 3.2),1597,885.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Khá (2.5 - 3.2),1597,55.42,,Bỏ dòng trả lời một mức,
+Tần suất GPA,Giỏi (3.2 - 3.6),1597,502.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Giỏi (3.2 - 3.6),1597,31.43,,Bỏ dòng trả lời một mức,
+Tần suất GPA,Xuất sắc (Trên 3.6),1597,79.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Xuất sắc (Trên 3.6),1597,4.95,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA mức 4-5 (%),Toàn mẫu,1597,36.3807,,Bỏ dòng trả lời một mức,
+Mức GPA trung vị,Toàn mẫu,1597,3.0,,Bỏ dòng trả lời một mức,Khá (2.5 - 3.2)
+Điểm TB Chất lượng Giảng viên,Toàn mẫu,1597,4.38,,Bỏ dòng trả lời một mức,
+Điểm TB Sự hỗ trợ từ Giảng viên,Toàn mẫu,1597,4.2,,Bỏ dòng trả lời một mức,
+Điểm TB Chương trình đào tạo,Toàn mẫu,1597,4.12,,Bỏ dòng trả lời một mức,
+Điểm TB Cơ sở vật chất,Toàn mẫu,1597,4.06,,Bỏ dòng trả lời một mức,
+Điểm TB Sự hỗ trợ từ Trường,Toàn mẫu,1597,3.97,,Bỏ dòng trả lời một mức,
+Điểm TB Sự cạnh tranh trong lớp,Toàn mẫu,1597,3.9,,Bỏ dòng trả lời một mức,
+Điểm TB Ảnh hưởng từ bạn bè,Toàn mẫu,1597,3.77,,Bỏ dòng trả lời một mức,
+Điểm TB Phương pháp học tập,Toàn mẫu,1597,3.52,,Bỏ dòng trả lời một mức,
+Điểm TB Mức độ thích nghi ĐH,Toàn mẫu,1597,3.32,,Bỏ dòng trả lời một mức,
+Spearman GPA ~ TG tự học,Toàn mẫu,1597,0.1,5.990725134962474e-05,Bỏ dòng trả lời một mức,Rất yếu
+Spearman GPA ~ TG dành cho bạn bè,Toàn mẫu,1597,-0.046,0.06440485659326899,Bỏ dòng trả lời một mức,Rất yếu
+Spearman GPA ~ TG dùng mạng xã hội,Toàn mẫu,1597,-0.095,0.00015464147772905929,Bỏ dòng trả lời một mức,Rất yếu
+Tỉ lệ GPA mức 4-5 (%) theo Giới tính,Nam,159,29.56,0.015659990101407884,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Giới tính,Nam,159,3.0,0.015659990101407884,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Giới tính,Nữ,1438,37.13,0.015659990101407884,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Giới tính,Nữ,1438,3.0,0.015659990101407884,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Giới tính,Nam,159,3.28,0.48860701926106886,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Giới tính,Nữ,1438,3.33,0.48860701926106886,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Giới tính,Nam,159,3.36,0.01843847674680749,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Giới tính,Nữ,1438,3.53,0.01843847674680749,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Giới tính,Nam,159,3.92,0.4288651021800649,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Giới tính,Nữ,1438,3.97,0.4288651021800649,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Giới tính,Nam,159,4.19,0.9841417925379019,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Giới tính,Nữ,1438,4.2,0.9841417925379019,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Giới tính,Nam,159,3.95,0.06630426739306469,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Giới tính,Nữ,1438,4.07,0.06630426739306469,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Giới tính,Nam,159,4.47,0.256216285623184,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Giới tính,Nữ,1438,4.37,0.256216285623184,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Giới tính,Nam,159,4.04,0.23543735054939885,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Giới tính,Nữ,1438,4.13,0.23543735054939885,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Giới tính,Nam,159,3.86,0.5407053860395654,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Giới tính,Nữ,1438,3.91,0.5407053860395654,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Giới tính,Nam,159,3.86,0.22460223402701174,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Giới tính,Nữ,1438,3.76,0.22460223402701174,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Diện chính sách,Có,617,30.15,0.0003580878805987049,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Diện chính sách,Có,617,3.0,0.0003580878805987049,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Diện chính sách,Không,980,40.31,0.0003580878805987049,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Diện chính sách,Không,980,3.0,0.0003580878805987049,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Diện chính sách,Có,617,3.28,0.19405273783822996,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Diện chính sách,Không,980,3.34,0.19405273783822996,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Diện chính sách,Có,617,3.46,0.031588308664954066,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Diện chính sách,Không,980,3.56,0.031588308664954066,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Diện chính sách,Có,617,4.03,0.03425439745427668,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Diện chính sách,Không,980,3.93,0.03425439745427668,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Diện chính sách,Có,617,4.17,0.6364923452520228,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Diện chính sách,Không,980,4.21,0.6364923452520228,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Diện chính sách,Có,617,4.15,0.0034994546950718624,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Diện chính sách,Không,980,4.0,0.0034994546950718624,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Diện chính sách,Có,617,4.39,0.43196524006142634,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Diện chính sách,Không,980,4.37,0.43196524006142634,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Diện chính sách,Có,617,4.18,0.02007209589281102,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Diện chính sách,Không,980,4.09,0.02007209589281102,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Diện chính sách,Có,617,3.98,0.0032117209588745396,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Diện chính sách,Không,980,3.85,0.0032117209588745396,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Diện chính sách,Có,617,3.79,0.6351844844213397,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Diện chính sách,Không,980,3.75,0.6351844844213397,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Hộ nghèo,Có,79,22.78,0.10345586041066956,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Hộ nghèo,Có,79,3.0,0.10345586041066956,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Hộ nghèo,Không,1518,37.09,0.10345586041066956,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Hộ nghèo,Không,1518,3.0,0.10345586041066956,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Hộ nghèo,Có,79,3.39,0.3560356113191422,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Hộ nghèo,Không,1518,3.32,0.3560356113191422,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Hộ nghèo,Có,79,3.46,0.5905657582161393,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Hộ nghèo,Không,1518,3.52,0.5905657582161393,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Hộ nghèo,Có,79,4.16,0.007341414307508715,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Hộ nghèo,Không,1518,3.96,0.007341414307508715,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Hộ nghèo,Có,79,4.32,0.18915633133710885,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Hộ nghèo,Không,1518,4.19,0.18915633133710885,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Hộ nghèo,Có,79,4.04,0.6955039151989586,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Hộ nghèo,Không,1518,4.06,0.6955039151989586,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Hộ nghèo,Có,79,4.61,0.02090720921428424,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Hộ nghèo,Không,1518,4.37,0.02090720921428424,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Hộ nghèo,Có,79,4.22,0.3505130783077637,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Hộ nghèo,Không,1518,4.12,0.3505130783077637,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Hộ nghèo,Có,79,4.08,0.078778309714424,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Hộ nghèo,Không,1518,3.89,0.078778309714424,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Hộ nghèo,Có,79,4.01,0.008634675882842856,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Hộ nghèo,Không,1518,3.75,0.008634675882842856,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Dân tộc thiểu số,Có,121,23.97,0.08233974184492537,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Dân tộc thiểu số,Có,121,3.0,0.08233974184492537,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Dân tộc thiểu số,Không,1476,37.4,0.08233974184492537,Bỏ dòng trả lời một mức,Mann-Whitney U
+Trung vị mức GPA theo Dân tộc thiểu số,Không,1476,3.0,0.08233974184492537,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Dân tộc thiểu số,Có,121,3.28,0.3456573687053951,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Mức độ thích nghi ĐH theo Dân tộc thiểu số,Không,1476,3.32,0.3456573687053951,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Dân tộc thiểu số,Có,121,3.24,0.00019089526354332386,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Phương pháp học tập theo Dân tộc thiểu số,Không,1476,3.54,0.00019089526354332386,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Dân tộc thiểu số,Có,121,4.07,0.352741012798346,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Trường theo Dân tộc thiểu số,Không,1476,3.96,0.352741012798346,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Dân tộc thiểu số,Có,121,4.17,0.405589564985652,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự hỗ trợ từ Giảng viên theo Dân tộc thiểu số,Không,1476,4.2,0.405589564985652,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Dân tộc thiểu số,Có,121,4.27,0.019228297286498358,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Cơ sở vật chất theo Dân tộc thiểu số,Không,1476,4.04,0.019228297286498358,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Dân tộc thiểu số,Có,121,4.4,0.762446634140559,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chất lượng Giảng viên theo Dân tộc thiểu số,Không,1476,4.38,0.762446634140559,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Dân tộc thiểu số,Có,121,4.15,0.7096508793328455,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Chương trình đào tạo theo Dân tộc thiểu số,Không,1476,4.12,0.7096508793328455,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Dân tộc thiểu số,Có,121,3.89,0.8024250060638018,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Sự cạnh tranh trong lớp theo Dân tộc thiểu số,Không,1476,3.9,0.8024250060638018,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Dân tộc thiểu số,Có,121,3.63,0.016370325961487013,Bỏ dòng trả lời một mức,Mann-Whitney U
+Điểm TB Ảnh hưởng từ bạn bè theo Dân tộc thiểu số,Không,1476,3.78,0.016370325961487013,Bỏ dòng trả lời một mức,Mann-Whitney U
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Năm ba,130,26.15,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Năm ba,130,3.0,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Năm tư,350,25.14,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Năm tư,350,3.0,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Năm học,Đã tốt nghiệp,1117,41.09,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Năm học,Đã tốt nghiệp,1117,3.0,5.756140296387775e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Năm ba,130,3.18,0.00030581307535255205,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Năm tư,350,3.19,0.00030581307535255205,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Năm học,Đã tốt nghiệp,1117,3.38,0.00030581307535255205,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Năm ba,130,3.32,1.0445165635718409e-30,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Năm tư,350,3.06,1.0445165635718409e-30,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Năm học,Đã tốt nghiệp,1117,3.68,1.0445165635718409e-30,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Năm ba,130,4.27,1.212552279649394e-25,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Năm tư,350,3.38,1.212552279649394e-25,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Năm học,Đã tốt nghiệp,1117,4.12,1.212552279649394e-25,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Năm ba,130,4.15,0.49782567229123087,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Năm tư,350,4.21,0.49782567229123087,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Năm học,Đã tốt nghiệp,1117,4.2,0.49782567229123087,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Năm ba,130,4.52,1.0122475299220157e-35,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Năm tư,350,3.4,1.0122475299220157e-35,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Năm học,Đã tốt nghiệp,1117,4.21,1.0122475299220157e-35,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Năm ba,130,4.5,0.08116268275783753,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Năm tư,350,4.28,0.08116268275783753,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Năm học,Đã tốt nghiệp,1117,4.4,0.08116268275783753,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Năm ba,130,4.31,4.691292953767225e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Năm tư,350,3.79,4.691292953767225e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Năm học,Đã tốt nghiệp,1117,4.2,4.691292953767225e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Năm ba,130,3.73,2.0527764508304743e-10,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Năm tư,350,3.67,2.0527764508304743e-10,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Năm học,Đã tốt nghiệp,1117,3.99,2.0527764508304743e-10,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Năm ba,130,3.67,0.0022539124775496533,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Năm tư,350,3.66,0.0022539124775496533,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Năm học,Đã tốt nghiệp,1117,3.81,0.0022539124775496533,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Tiểu học,98,25.51,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Tiểu học,98,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,THCS,216,25.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,THCS,216,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,THPT,445,31.69,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,THPT,445,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Cao đẳng,288,42.01,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Cao đẳng,288,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Đại học/Sau đại học,450,43.11,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Đại học/Sau đại học,450,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Bố,Khác,100,46.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Bố,Khác,100,3.0,1.2576750413076634e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Tiểu học,98,3.12,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,THCS,216,3.09,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,THPT,445,3.23,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Cao đẳng,288,3.25,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Đại học/Sau đại học,450,3.58,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Bố,Khác,100,3.45,1.9936404642955614e-14,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Tiểu học,98,3.12,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,THCS,216,3.3,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,THPT,445,3.39,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Cao đẳng,288,3.51,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Đại học/Sau đại học,450,3.77,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Bố,Khác,100,3.85,8.874431390000783e-18,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Tiểu học,98,3.79,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,THCS,216,3.87,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,THPT,445,3.87,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Cao đẳng,288,3.92,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Đại học/Sau đại học,450,4.15,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Bố,Khác,100,4.13,1.6774896209850363e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Tiểu học,98,4.01,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,THCS,216,4.11,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,THPT,445,4.19,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Cao đẳng,288,4.1,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Đại học/Sau đại học,450,4.34,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Bố,Khác,100,4.21,0.00020075137632830396,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Tiểu học,98,3.82,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,THCS,216,3.94,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,THPT,445,3.97,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Cao đẳng,288,4.01,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Đại học/Sau đại học,450,4.21,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Bố,Khác,100,4.4,1.3112921597360332e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Tiểu học,98,4.29,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,THCS,216,4.38,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,THPT,445,4.29,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Cao đẳng,288,4.33,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Đại học/Sau đại học,450,4.49,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Bố,Khác,100,4.5,0.0004463618032828265,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Tiểu học,98,4.05,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,THCS,216,4.0,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,THPT,445,4.08,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Cao đẳng,288,4.03,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Đại học/Sau đại học,450,4.23,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Bố,Khác,100,4.38,7.28908812814001e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Tiểu học,98,3.85,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,THCS,216,3.9,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,THPT,445,3.82,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Cao đẳng,288,3.83,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Đại học/Sau đại học,450,4.0,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Bố,Khác,100,4.06,0.003907430920506815,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Tiểu học,98,3.78,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,THCS,216,3.76,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,THPT,445,3.71,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Cao đẳng,288,3.72,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Đại học/Sau đại học,450,3.85,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Bố,Khác,100,3.79,0.19412008283530077,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Tiểu học,108,23.15,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Tiểu học,108,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,THCS,242,25.21,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,THCS,242,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,THPT,426,31.92,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,THPT,426,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Cao đẳng,372,40.32,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Cao đẳng,372,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Đại học/Sau đại học,345,46.96,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Đại học/Sau đại học,345,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo Học vấn của Mẹ,Khác,104,45.19,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo Học vấn của Mẹ,Khác,104,3.0,6.932835120865627e-09,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Tiểu học,108,3.16,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,THCS,242,3.04,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,THPT,426,3.26,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Cao đẳng,372,3.31,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Đại học/Sau đại học,345,3.64,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo Học vấn của Mẹ,Khác,104,3.37,3.417982931237987e-15,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Tiểu học,108,3.31,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,THCS,242,3.17,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,THPT,426,3.44,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Cao đẳng,372,3.53,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Đại học/Sau đại học,345,3.82,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo Học vấn của Mẹ,Khác,104,3.8,4.2731627809814836e-19,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Tiểu học,108,3.84,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,THCS,242,3.66,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,THPT,426,3.97,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Cao đẳng,372,3.9,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.25,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo Học vấn của Mẹ,Khác,104,4.12,2.698305685889197e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Tiểu học,108,4.31,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,THCS,242,4.03,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,THPT,426,4.14,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Cao đẳng,372,4.21,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.34,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo Học vấn của Mẹ,Khác,104,4.15,0.0008386073719367523,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Tiểu học,108,3.76,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,THCS,242,3.79,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,THPT,426,4.14,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Cao đẳng,372,3.97,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.22,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo Học vấn của Mẹ,Khác,104,4.41,1.5933094928467593e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Tiểu học,108,4.41,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,THCS,242,4.36,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,THPT,426,4.31,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Cao đẳng,372,4.33,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.46,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo Học vấn của Mẹ,Khác,104,4.6,0.0011917494220119184,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Tiểu học,108,4.13,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,THCS,242,3.99,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,THPT,426,4.07,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Cao đẳng,372,4.05,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.28,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo Học vấn của Mẹ,Khác,104,4.38,2.472323969376499e-06,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Tiểu học,108,4.06,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,THCS,242,3.84,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,THPT,426,3.81,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Cao đẳng,372,3.84,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Đại học/Sau đại học,345,4.03,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo Học vấn của Mẹ,Khác,104,4.05,0.0005617314705440601,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Tiểu học,108,3.93,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,THCS,242,3.67,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,THPT,426,3.69,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Cao đẳng,372,3.73,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Đại học/Sau đại học,345,3.89,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo Học vấn của Mẹ,Khác,104,3.84,0.0025453851916583405,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Dưới 2 giờ,13,30.77,0.0005533368661725923,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Trung vị mức GPA theo TG tự học,Dưới 2 giờ,13,3.0,0.0005533368661725923,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 2 đến dưới 4 giờ,35,22.86,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.0,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 4 đến dưới 6 giờ,53,28.3,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.0,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Từ 6 đến dưới 8 giờ,199,33.67,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.0,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Tỉ lệ GPA mức 4-5 (%) theo TG tự học,Hơn 8 giờ,1297,37.55,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Trung vị mức GPA theo TG tự học,Hơn 8 giờ,1297,3.0,0.0005533368661725923,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Dưới 2 giờ,13,3.08,1.790429130358304e-05,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.17,1.790429130358304e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 4 đến dưới 6 giờ,53,2.96,1.790429130358304e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.18,1.790429130358304e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Mức độ thích nghi ĐH theo TG tự học,Hơn 8 giờ,1297,3.36,1.790429130358304e-05,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Dưới 2 giờ,13,3.08,9.063422629174772e-08,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Phương pháp học tập theo TG tự học,Từ 2 đến dưới 4 giờ,35,2.91,9.063422629174772e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.23,9.063422629174772e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.32,9.063422629174772e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Phương pháp học tập theo TG tự học,Hơn 8 giờ,1297,3.58,9.063422629174772e-08,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Dưới 2 giờ,13,3.31,1.0302366011543038e-07,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.6,1.0302366011543038e-07,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.58,1.0302366011543038e-07,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.65,1.0302366011543038e-07,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Trường theo TG tự học,Hơn 8 giờ,1297,4.05,1.0302366011543038e-07,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Dưới 2 giờ,13,3.62,0.12106166142441001,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 2 đến dưới 4 giờ,35,4.2,0.12106166142441001,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 4 đến dưới 6 giờ,53,4.25,0.12106166142441001,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Từ 6 đến dưới 8 giờ,199,4.32,0.12106166142441001,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự hỗ trợ từ Giảng viên theo TG tự học,Hơn 8 giờ,1297,4.18,0.12106166142441001,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Dưới 2 giờ,13,3.38,0.000494237475921004,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.29,0.000494237475921004,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.87,0.000494237475921004,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.9,0.000494237475921004,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Cơ sở vật chất theo TG tự học,Hơn 8 giờ,1297,4.11,0.000494237475921004,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Dưới 2 giờ,13,4.08,0.11696389124624901,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 2 đến dưới 4 giờ,35,4.29,0.11696389124624901,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 4 đến dưới 6 giờ,53,4.4,0.11696389124624901,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Từ 6 đến dưới 8 giờ,199,4.52,0.11696389124624901,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chất lượng Giảng viên theo TG tự học,Hơn 8 giờ,1297,4.36,0.11696389124624901,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Dưới 2 giờ,13,3.92,0.022693944799002948,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.71,0.022693944799002948,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 4 đến dưới 6 giờ,53,4.0,0.022693944799002948,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Từ 6 đến dưới 8 giờ,199,4.16,0.022693944799002948,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Chương trình đào tạo theo TG tự học,Hơn 8 giờ,1297,4.13,0.022693944799002948,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Dưới 2 giờ,13,3.46,0.9651570526748628,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.91,0.9651570526748628,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.91,0.9651570526748628,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.91,0.9651570526748628,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Sự cạnh tranh trong lớp theo TG tự học,Hơn 8 giờ,1297,3.9,0.9651570526748628,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Dưới 2 giờ,13,3.31,0.5397372714971702,Bỏ dòng trả lời một mức,"Kruskal-Wallis H; n < 30, không kết luận"
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 2 đến dưới 4 giờ,35,3.63,0.5397372714971702,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 4 đến dưới 6 giờ,53,3.62,0.5397372714971702,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 6 đến dưới 8 giờ,199,3.78,0.5397372714971702,Bỏ dòng trả lời một mức,Kruskal-Wallis H
+Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Hơn 8 giờ,1297,3.78,0.5397372714971702,Bỏ dòng trả lời một mức,Kruskal-Wallis H
