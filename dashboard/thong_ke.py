@@ -1,12 +1,25 @@
 """
-Thống kê cho dashboard: 6 hàm theo hợp đồng trong docs/chi_so_thong_ke.md (mục 1.1 đến 1.6).
+Thống kê cho dashboard (Hiếu viết, Chính gọi).
+
+HỢP ĐỒNG HÀM (6 hàm, xem khối chú thích "HỢP ĐỒNG HÀM" ở giữa file):
+    chuan_bi(df)                  lọc dòng khảo sát thật, thêm cột số (GPA_muc, <cột>_so)
+    ty_le_nhom(df, cot)           bảng tỉ lệ GPA từ 3.2 trở lên theo nhóm, kèm n
+    ty_le_toan_mau(df)            % GPA từ 3.2 trở lên của cả mẫu
+    spearman(df, cot_so)          (rho, p) giữa GPA và một cột số
+    mann_whitney(df, cot, a, b)   dict so sánh mức GPA giữa hai nhóm
+    kruskal(df, cot)              dict so sánh mức GPA giữa các nhóm
+
+Ngoài ra có các hàm chi tiết dùng cho notebook 02 và file ket_qua_thong_ke.csv
+(tan_suat_ty_le_gpa, ty_le_gpa_muc_4_5, gpa_trung_vi, diem_tb_likert, tuong_quan_spearman,
+so_sanh_nhom, tao_bang_ket_qua) theo docs/chi_so_thong_ke.md mục 1.1 đến 1.6.
 
 Dữ liệu vào: DataFrame đọc từ data/clean/vnu_that_sach.csv (cột tiếng Việt, giá trị đã giải mã
 thành nhãn chữ). Các hàm cũng chấp nhận cột còn ở dạng mã số 1-5.
 
-    from thong_ke import doc_du_lieu, tan_suat_ty_le_gpa
-    df = doc_du_lieu()                 # mặc định chỉ lấy dòng "Khao sat that"
-    print(tan_suat_ty_le_gpa(df))
+    import pandas as pd
+    from thong_ke import chuan_bi, ty_le_nhom, ty_le_toan_mau
+    df = chuan_bi(pd.read_csv("data/clean/vnu_that_sach.csv"))
+    print(ty_le_toan_mau(df), ty_le_nhom(df, "Giới tính"))
 
 Quy tắc: GPA chỉ có 5 mức thứ bậc, nên chỉ dùng tần suất, tỉ lệ, trung vị và kiểm định phi tham số.
 Kết luận về sinh viên thật chỉ rút ra từ Nguon = "Khao sat that".
@@ -14,6 +27,7 @@ Kết luận về sinh viên thật chỉ rút ra từ Nguon = "Khao sat that".
 Chạy thử:  python dashboard/thong_ke.py
 """
 from pathlib import Path
+
 import numpy as np
 import pandas as pd
 from scipy import stats
@@ -220,6 +234,126 @@ def so_sanh_nhom(df, nhom, bien="GPA"):
 
 
 # ----------------------------------------------------------------------------
+# HỢP ĐỒNG HÀM (Chính gọi từ dashboard):
+#   chuan_bi(df)                    -> df đã lọc dòng thật, thêm cột số
+#   ty_le_nhom(df, cot)             -> bảng: tỉ lệ GPA từ 3.2 trở lên theo từng nhóm của `cot`, kèm n
+#   ty_le_toan_mau(df)              -> % GPA từ 3.2 trở lên của cả mẫu
+#   spearman(df, cot_so)            -> (rho, p) giữa GPA và cột số `cot_so`
+#   mann_whitney(df, cot, a, b)     -> dict so sánh mức GPA giữa nhóm a và nhóm b của `cot`
+#   kruskal(df, cot)                -> dict so sánh mức GPA giữa mọi nhóm của `cot`
+# Các hàm chạy được cả trên df thô lẫn df đã qua chuan_bi (chạy lại chuan_bi không hại gì).
+# ----------------------------------------------------------------------------
+def chuan_bi(df):
+    """Lọc dòng khảo sát thật (Nguon = 'Khao sat that') và thêm cột số: GPA_muc, <Likert>_so,
+    <biến thời gian>_so (mức 1-5). Không xóa dòng trả lời một mức (cờ Tra_loi_deu vẫn giữ nguyên)."""
+    d = df.copy()
+    if COT_NGUON in d.columns:
+        d = d[d[COT_NGUON] == NGUON_THAT]
+    d = d.reset_index(drop=True)
+    d["GPA_muc"] = _gpa_so(d)
+    for c in LIKERT:
+        if c in d.columns:
+            d[c + "_so"] = _likert_so(d, c)
+    for c in COT_THOI_GIAN:
+        if c in d.columns:
+            d[c + "_so"] = _thoi_gian_so(d, c)
+    return d
+
+
+def _cot_so(df, cot):
+    """Lấy cột `cot` dạng số: nhận tên cột số có sẵn (vd 'TG tự học_so') hoặc tên cột nhãn chữ."""
+    if cot in df.columns and cot.endswith("_so"):
+        return df[cot].astype(float)
+    base = cot[:-3] if cot.endswith("_so") else cot
+    if base == GPA_COL or base == "GPA_muc":
+        return _gpa_so(df)
+    if base in _TG_SO:
+        return _thoi_gian_so(df, base)
+    if base in LIKERT:
+        return _likert_so(df, base)
+    if base in df.columns and pd.api.types.is_numeric_dtype(df[base]):
+        return df[base].astype(float)
+    raise KeyError(f"Không có cột số '{cot}'")
+
+
+def _thu_tu(cot, nhan):
+    nhan = list(nhan)
+    thu_tu = _THU_TU_NHOM.get(cot, [])
+    return [v for v in thu_tu if v in nhan] + sorted(v for v in nhan if v not in thu_tu)
+
+
+def ty_le_toan_mau(df):
+    """% sinh viên có GPA từ 3.2 trở lên (mức 4-5) trên cả mẫu (số thực, 0-100)."""
+    return ty_le_gpa_muc_4_5(df)[0]
+
+
+def ty_le_nhom(df, cot):
+    """Bảng một dòng mỗi nhóm của `cot`: cột `cot`, n, 'Số SV GPA từ 3.2', 'Tỉ lệ GPA từ 3.2 (%)'.
+    Nhóm xếp theo thứ tự tự nhiên (năm học, học vấn...) nếu biết, còn lại theo bảng chữ cái."""
+    d = pd.DataFrame({"nhom": df[cot], "muc": _gpa_so(df)}).dropna()
+    hang = []
+    for g in _thu_tu(cot, d["nhom"].unique()):
+        m = d.loc[d["nhom"] == g, "muc"]
+        hang.append({cot: g, "n": int(len(m)), "Số SV GPA từ 3.2": int((m >= 4).sum()),
+                     "Tỉ lệ GPA từ 3.2 (%)": round(float((m >= 4).mean() * 100), 2)})
+    return pd.DataFrame(hang, columns=[cot, "n", "Số SV GPA từ 3.2", "Tỉ lệ GPA từ 3.2 (%)"])
+
+
+def spearman(df, cot_so):
+    """(rho, p) giữa mức GPA và cột số `cot_so`. Trả (nan, nan) nếu một bên không đổi giá trị."""
+    x, y = _cot_so(df, cot_so), _gpa_so(df)
+    m = x.notna() & y.notna()
+    if m.sum() < 3 or x[m].nunique() < 2 or y[m].nunique() < 2:
+        return float("nan"), float("nan")
+    rho, p = stats.spearmanr(x[m], y[m])
+    return float(rho), float(p)
+
+
+def mann_whitney(df, cot, a, b):
+    """Mann-Whitney U (hai phía) cho mức GPA giữa nhóm `a` và nhóm `b` của cột `cot`.
+    Trả về dict: nhom_a, nhom_b, n_a, n_b, U, p, ghi_chu (U và p là nan nếu không tính được)."""
+    muc = _gpa_so(df)
+    xa, xb = muc[df[cot] == a].dropna(), muc[df[cot] == b].dropna()
+    kq = {"nhom_a": a, "nhom_b": b, "n_a": int(len(xa)), "n_b": int(len(xb)),
+          "U": float("nan"), "p": float("nan"), "ghi_chu": ""}
+    if len(xa) == 0 or len(xb) == 0:
+        kq["ghi_chu"] = "Một trong hai nhóm không có dòng nào"
+        return kq
+    try:
+        u, p = stats.mannwhitneyu(xa, xb, alternative="two-sided")
+        kq["U"], kq["p"] = float(u), float(p)
+    except ValueError as e:
+        kq["ghi_chu"] = f"Không kiểm định được: {e}"
+    if min(len(xa), len(xb)) < N_TOI_THIEU:
+        kq["ghi_chu"] = (kq["ghi_chu"] + "; " if kq["ghi_chu"] else "") + "Có nhóm n < 30, không nên kết luận"
+    return kq
+
+
+def kruskal(df, cot):
+    """Kruskal-Wallis H cho mức GPA giữa các nhóm của `cot` (chỉ nhóm n >= 30 tham gia).
+    Trả về dict: H, p, bac_tu_do, so_nhom, n, ghi_chu (H và p là nan nếu không tính được)."""
+    d = pd.DataFrame({"nhom": df[cot], "muc": _gpa_so(df)}).dropna()
+    lon, nho = [], []
+    for g in _thu_tu(cot, d["nhom"].unique()):
+        v = d.loc[d["nhom"] == g, "muc"].values
+        (lon if len(v) >= N_TOI_THIEU else nho).append((g, v))
+    kq = {"H": float("nan"), "p": float("nan"), "bac_tu_do": max(len(lon) - 1, 0),
+          "so_nhom": len(lon), "n": int(sum(len(v) for _, v in lon)), "ghi_chu": ""}
+    if nho:
+        kq["ghi_chu"] = "Bỏ nhóm n < 30: " + ", ".join(str(g) for g, _ in nho)
+    if len(lon) < 2:
+        kq["ghi_chu"] = (kq["ghi_chu"] + "; " if kq["ghi_chu"] else "") + \
+            "Cần ít nhất 2 nhóm có n >= 30 để kiểm định"
+        return kq
+    try:
+        h, p = stats.kruskal(*[v for _, v in lon])
+        kq["H"], kq["p"] = float(h), float(p)
+    except ValueError as e:
+        kq["ghi_chu"] = (kq["ghi_chu"] + "; " if kq["ghi_chu"] else "") + f"Không kiểm định được: {e}"
+    return kq
+
+
+# ----------------------------------------------------------------------------
 # Hàm phụ: gom mọi chỉ số thành một bảng dài để xuất data/clean/ket_qua_thong_ke.csv
 # ----------------------------------------------------------------------------
 NHOM_MANN_WHITNEY = ["Giới tính", "Diện chính sách", "Hộ nghèo", "Dân tộc thiểu số"]
@@ -277,6 +411,13 @@ if __name__ == "__main__":
     pd.set_option("display.width", 160, "display.max_columns", 20)
     data = doc_du_lieu()
     print(f"n = {len(data)} dòng khảo sát thật\n")
+    print("--- Hợp đồng hàm ---")
+    d = chuan_bi(data)
+    print("ty_le_toan_mau:", round(ty_le_toan_mau(d), 2))
+    print(ty_le_nhom(d, "Giới tính"), "\n")
+    print("spearman(TG tự học_so):", spearman(d, "TG tự học_so"))
+    print("mann_whitney:", mann_whitney(d, "Giới tính", "Nam", "Nữ"))
+    print("kruskal:", kruskal(d, "Năm học"), "\n--- Chỉ số chi tiết ---\n")
     print("1.1 Tần suất & tỉ lệ GPA\n", tan_suat_ty_le_gpa(data), "\n")
     tl, so, n = ty_le_gpa_muc_4_5(data)
     print(f"1.2 Tỉ lệ GPA mức 4-5: {tl:.2f}% ({so}/{n})\n")

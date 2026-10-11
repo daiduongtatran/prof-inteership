@@ -82,12 +82,12 @@ Dưới đây là các giá trị thống kê cụ thể khi xét tập dữ li�
   - Loại Xuất sắc (mức 5 - GPA $\ge$ 3.6): 4.78% (93 sv).
   - Loại Trung bình (mức 2 - GPA 2.0 đến < 2.5): 5.45% (106 sv).
   - Loại Yếu (mức 1 - GPA < 2.0): 3.03% (59 sv).
-- **Tổng tỉ lệ đạt loại Giỏi và Xuất sắc (mức 4–5):** 36.00% (700 sv).
+- **Tổng tỉ lệ đạt loại Giỏi và Xuất sắc (mức 4–5):** 36.01% (700 sv).
 
 ### 3.3. Đánh giá các Yếu tố Ảnh hưởng (Likert 1–5)
 - Chất lượng giảng viên (`Quality_Lecturer`): 4.33 / 5.0 (Cao nhất).
 - Sự hỗ trợ từ giảng viên (`SupportOf_Lec`): 4.18 / 5.0.
-- Chương trình đào tạo (`TrainingCurriculum`): 4.11 / 5.0.
+- Chương trình đào tạo (`TrainingCurriculum`): 4.12 / 5.0.
 - Cơ sở vật chất nhà trường (`Facilitie_Uni`): 4.07 / 5.0.
 - Mức độ hỗ trợ của trường (`SupportOf_Uni`): 3.99 / 5.0.
 - Mức độ cạnh tranh trong lớp (`Competitive_Class`): 3.94 / 5.0.
