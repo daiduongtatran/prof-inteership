@@ -15,6 +15,11 @@ import plotly.express as px
 import streamlit as st
 from scipy import stats
 
+try:
+    from dashboard.goi_y import ve_tab_goi_y
+except ImportError:
+    from goi_y import ve_tab_goi_y
+
 st.set_page_config(page_title="Dashboard kết quả học tập", page_icon="📊", layout="wide")
 
 # ----------------------------------------------------------------------------
@@ -165,8 +170,8 @@ c4.metric("Tỉ lệ GPA dưới 2.5", f"{ty_le_thap:.1f}%", help="Mức 1 và 2
 if n < N_TOI_THIEU:
     st.warning(f"Chỉ có {n} dòng, quá ít để kết luận.")
 
-tab1, tab2, tab3, tab4 = st.tabs(["Tổng quan", "So sánh theo nhóm",
-                                   "Tương quan với GPA", "Bảng số liệu"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Tổng quan", "So sánh theo nhóm",
+                                         "Tương quan với GPA", "Bảng số liệu", "Gợi ý học tập"])
 
 # ----------------------------------------------------------------------------
 # Tab 1: tổng quan
@@ -285,3 +290,9 @@ with tab4:
                        f.drop(columns=[c for c in f.columns if c.endswith("_so")] + ["Muc_GPA"])
                        .to_csv(index=False).encode("utf-8-sig"),
                        file_name="du_lieu_da_loc.csv", mime="text/csv")
+    
+# ----------------------------------------------------------------------------
+# Tab 5: gợi ý học tập
+# ----------------------------------------------------------------------------
+with tab5:
+    ve_tab_goi_y(f)

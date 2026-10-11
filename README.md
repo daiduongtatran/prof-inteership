@@ -101,7 +101,7 @@ Quy ước mã dùng chung cho 9 cột dưới đây:
 
 **1. Biến động số lượng bản ghi (Dòng):**
 - **Trước khi làm sạch:** 2.770 bản ghi.
-- **Sau khi làm sạch:** 2.539 bản ghi (Đã loại bỏ 231 bản ghi rác).
+- **Sau khi làm sạch:** 2.539 bản ghi (Đã loại bỏ 231 bản ghi rác, đánh dấu 461 bản ghi trả lời đều).
 
 **2. Chi tiết các bước thay đổi và Lý do:**
 - **Giải mã & Đổi tên (Mapping & Renaming):** 
