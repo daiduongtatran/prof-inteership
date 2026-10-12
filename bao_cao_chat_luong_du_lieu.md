@@ -3,7 +3,7 @@
 ## 1. Phạm vi kiểm tra
 
 - **Dữ liệu kiểm tra:** `data/raw/Database_paper.xlsx`, Sheet1: **2.170 phản hồi khảo sát thật, 22 cột**.
-- **Từ điển và mã hóa:** `data/raw/CODEBOOK.docx`, `docs/tu_dien_du_lieu.md`.
+- **Từ điển và mã hóa:** `data/raw/CODEBOOK.docx`, `README.md`.
 - Các số liệu dưới đây tính trên dữ liệu thật, chưa tính 600 dòng mô phỏng bổ sung.
 
 ## 2. Kết quả kiểm tra
