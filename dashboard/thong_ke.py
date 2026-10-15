@@ -45,7 +45,7 @@ COT_TRA_LOI_DEU = "Tra_loi_deu"
 NGUON_THAT = "Khao sat that"
 N_TOI_THIEU = 30
 
-NHAN_GPA = {1: "Yếu (Dưới 2.0)", 2: "Trung bình (2.0 - 2.5)", 3: "Khá (2.5 - 3.2)",
+NHAN_GPA = {1: "Kém (Dưới 2.0)", 2: "Trung bình (2.0 - 2.5)", 3: "Khá (2.5 - 3.2)",
             4: "Giỏi (3.2 - 3.6)", 5: "Xuất sắc (Trên 3.6)"}
 
 # Nhãn trong file sạch -> mức số (đúng thứ tự thứ bậc)

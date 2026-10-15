@@ -1,6 +1,6 @@
 ﻿chi_so,nhom,n,gia_tri,p,mau,ghi_chu
-Tần suất GPA,Yếu (Dưới 2.0),1944,59.0,,Tất cả dòng thật,
-Tỉ lệ GPA (%),Yếu (Dưới 2.0),1944,3.03,,Tất cả dòng thật,
+Tần suất GPA,Kém (Dưới 2.0),1944,59.0,,Tất cả dòng thật,
+Tỉ lệ GPA (%),Kém (Dưới 2.0),1944,3.03,,Tất cả dòng thật,
 Tần suất GPA,Trung bình (2.0 - 2.5),1944,106.0,,Tất cả dòng thật,
 Tỉ lệ GPA (%),Trung bình (2.0 - 2.5),1944,5.45,,Tất cả dòng thật,
 Tần suất GPA,Khá (2.5 - 3.2),1944,1079.0,,Tất cả dòng thật,
@@ -331,8 +331,8 @@ Trung vị mức GPA theo TG tự học,Hơn 8 giờ,1587,3.0,3.3539515508183706
 Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 4 đến dưới 6 giờ,68,3.63,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
 Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Từ 6 đến dưới 8 giờ,228,3.84,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
 Điểm TB Ảnh hưởng từ bạn bè theo TG tự học,Hơn 8 giờ,1587,3.84,0.28570052754759157,Tất cả dòng thật,Kruskal-Wallis H
-Tần suất GPA,Yếu (Dưới 2.0),1597,43.0,,Bỏ dòng trả lời một mức,
-Tỉ lệ GPA (%),Yếu (Dưới 2.0),1597,2.69,,Bỏ dòng trả lời một mức,
+Tần suất GPA,Kém (Dưới 2.0),1597,43.0,,Bỏ dòng trả lời một mức,
+Tỉ lệ GPA (%),Kém (Dưới 2.0),1597,2.69,,Bỏ dòng trả lời một mức,
 Tần suất GPA,Trung bình (2.0 - 2.5),1597,88.0,,Bỏ dòng trả lời một mức,
 Tỉ lệ GPA (%),Trung bình (2.0 - 2.5),1597,5.51,,Bỏ dòng trả lời một mức,
 Tần suất GPA,Khá (2.5 - 3.2),1597,885.0,,Bỏ dòng trả lời một mức,
