@@ -50,3 +50,22 @@ def test_loc_rong_khong_loi():
     at.sidebar.multiselect[1].set_value([]).run()
     assert not at.exception
     assert len(at.warning) > 0
+
+
+def test_the_chi_so_mac_dinh():
+    """Kiểm tra thẻ chỉ số mặc định: n = 1.944, tỉ lệ GPA = 36.0%"""
+    at = AppTest.from_file(APP_PATH, default_timeout=30).run()
+    assert not at.exception
+    
+    # Kiểm tra giá trị của 2 thẻ KPI đầu tiên trên dashboard
+    assert at.metric[0].value == "1.944"
+    assert at.metric[1].value == "36.0%"
+
+
+if __name__ == "__main__":
+    test_khoi_dong_mac_dinh()
+    test_moi_lua_chon_nhom_so_sanh_va_goi_y()
+    test_bat_mo_phong_bo_sung_va_co_tra_loi_mot_muc()
+    test_loc_rong_khong_loi()
+    test_the_chi_so_mac_dinh()
+    print("✅ TẤT CẢ CÁC TEST ĐỀU PASS!")

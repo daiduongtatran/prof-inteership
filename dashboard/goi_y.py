@@ -71,22 +71,20 @@ def _lay_muc_so(df: pd.DataFrame, ten_cot: str) -> pd.Series:
     return s.map(_LIKERT_MAP).astype(float)
 
 
-def _gop_nhom_13_4_5(muc_so: pd.Series) -> pd.Series:
-    """Gộp mức 1-5 thành 3 nhóm: Mức 1–3, Mức 4, Mức 5."""
+def _gop_nhom_dong(muc_so: pd.Series, nhan_gop: list) -> pd.Series:
+    """Gộp mức 1-5 thành 3 nhóm linh hoạt theo nhãn được truyền vào."""
     def _doi(x):
         if pd.isna(x):
             return np.nan
         x = int(x)
         if x in (1, 2, 3):
-            return THU_TU_GOP[0]
+            return nhan_gop[0]
         if x == 4:
-            return THU_TU_GOP[1]
+            return nhan_gop[1]
         if x == 5:
-            return THU_TU_GOP[2]
+            return nhan_gop[2]
         return np.nan
-
     return muc_so.map(_doi)
-
 
 def ve_tab_goi_y(df: pd.DataFrame):
     """Hiển thị tab Gợi ý học tập trên Dashboard."""
@@ -104,10 +102,17 @@ def ve_tab_goi_y(df: pd.DataFrame):
     )
     ten_cot = YEU_TO_GOI_Y[nhan_chon]
 
-    # 2. Tạo cột nhóm gộp và tính tỉ lệ bằng hàm của Hiếu
+    # 2. XÁC ĐỊNH NHÃN ĐỘNG CHO TỪNG BIẾN (Theo yêu cầu Task 4)
+    if ten_cot == "TG tự học":
+        nhan_gop = ["Dưới 6 giờ", "6–8 giờ", "Trên 8 giờ"]
+    elif ten_cot in ("TG dùng mạng xã hội", "TG dành cho bạn bè"):
+        nhan_gop = ["Dưới 3 giờ", "3–4 giờ", "Trên 4 giờ"]
+    else:
+        nhan_gop = ["Mức 1–3 (Thấp/TB)", "Mức 4 (Cao)", "Mức 5 (Rất cao)"]
+
     d = df.copy()
     d["_muc_so"] = _lay_muc_so(d, ten_cot)
-    d["Nhóm gộp"] = _gop_nhom_13_4_5(d["_muc_so"])
+    d["Nhóm gộp"] = _gop_nhom_dong(d["_muc_so"], nhan_gop)
     d = d.dropna(subset=["Nhóm gộp", "GPA_muc"]).reset_index(drop=True)
 
     if d.empty:
@@ -115,10 +120,14 @@ def ve_tab_goi_y(df: pd.DataFrame):
         return
 
     ty_le_chung = round(float(ty_le_toan_mau(d)), 1)
+    
+    # Tính tương quan Spearman để lấy rho (Theo yêu cầu Task 4)
+    rho, p_val_spearman = spearman(d, ten_cot)
+    chuoi_rho = f"|ρ| = {abs(rho):.2f}" if not pd.isna(rho) else "|ρ| không tính được"
 
-    # Tính bảng đối chiếu theo thứ tự nhóm gộp
+    # Tính bảng đối chiếu
     hang = []
-    for nhom in THU_TU_GOP:
+    for nhom in nhan_gop:
         sub = d[d["Nhóm gộp"] == nhom]
         n_nhom = int(len(sub))
         so_dat = int((sub["GPA_muc"] >= 4).sum()) if n_nhom > 0 else 0
@@ -133,48 +142,34 @@ def ve_tab_goi_y(df: pd.DataFrame):
         })
     bang_gop = pd.DataFrame(hang)
 
-    # Kiểm định p-value qua hàm của Hiếu (kruskal / mann_whitney / spearman)
     kd_kruskal = kruskal(d, "Nhóm gộp")
     p_val = kd_kruskal.get("p", float("nan"))
     if pd.isna(p_val):
-        # Nếu chỉ còn 2 nhóm có n >= 30 thì dùng Mann-Whitney hoặc Spearman
         nhom_du = [r["Nhóm gộp"] for r in hang if r["n"] >= N_TOI_THIEU]
         if len(nhom_du) == 2:
             p_val = mann_whitney(d, "Nhóm gộp", nhom_du[0], nhom_du[1]).get("p", float("nan"))
         else:
-            _, p_val = spearman(d, ten_cot)
+            p_val = p_val_spearman
 
-    # 3. Vẽ biểu đồ cột có đường chuẩn toàn mẫu và ghi n ở mỗi cột
+    # 3. Vẽ biểu đồ cột
     fig = px.bar(
         bang_gop,
         x="Nhãn cột",
         y="Tỉ lệ GPA từ 3.2 (%)",
         color="Đủ mẫu",
-        color_discrete_map={
-            "n ≥ 30": "#1f77b4",
-            "n < 30 (quá ít mẫu)": "#b0b0b0",
-        },
-        text=bang_gop.apply(
-            lambda r: f"{r['Tỉ lệ GPA từ 3.2 (%)']:.1f}% (n={int(r['n'])})", axis=1
-        ),
+        color_discrete_map={"n ≥ 30": "#1f77b4", "n < 30 (quá ít mẫu)": "#b0b0b0"},
+        text=bang_gop.apply(lambda r: f"{r['Tỉ lệ GPA từ 3.2 (%)']:.1f}%", axis=1),
         title=f"Tỉ lệ GPA từ 3.2 trở lên theo nhóm gộp: {nhan_chon}",
     )
     fig.add_hline(
-        y=ty_le_chung,
-        line_dash="dash",
-        line_color="#d62728",
+        y=ty_le_chung, line_dash="dash", line_color="#d62728",
         annotation_text=f"Chuẩn toàn mẫu: {ty_le_chung:.1f}% (n={len(d)})",
         annotation_position="top right",
     )
-    fig.update_layout(
-        xaxis_title=None,
-        yaxis_title="% sinh viên có GPA ≥ 3.2",
-        legend_title=None,
-        yaxis_range=[0, max(100, float(bang_gop["Tỉ lệ GPA từ 3.2 (%)"].max()) + 15)],
-    )
+    fig.update_layout(xaxis_title=None, yaxis_title="% sinh viên có GPA ≥ 3.2", legend_title=None)
     st.plotly_chart(fig, width="stretch")
 
-    # 4. Tự sinh câu gợi ý theo mẫu quy định (không câu nào khẳng định nhân quả)
+    # 4. Tự sinh câu gợi ý
     st.markdown("#### 📌 Nhận xét theo nhóm gộp")
     for _, r in bang_gop.iterrows():
         ten_x = r["Nhóm gộp"]
@@ -182,41 +177,29 @@ def ve_tab_goi_y(df: pd.DataFrame):
         a_pct = r["Tỉ lệ GPA từ 3.2 (%)"]
 
         if n_x < N_TOI_THIEU:
-            st.warning(
-                f"- **Nhóm {ten_x}** (n = {n_x}): **quá ít mẫu** (n < 30), không đưa ra nhận xét."
-            )
+            st.warning(f"- **Nhóm {ten_x}** (n = {n_x}): **quá ít mẫu**, không nhận xét.")
         elif pd.isna(p_val) or p_val >= 0.05:
             st.info(
-                f"- **Nhóm {ten_x}**: có tỉ lệ GPA từ 3.2 trở lên là {a_pct:.1f}% (n = {n_x}) "
-                f"so với {ty_le_chung:.1f}% toàn mẫu — **chưa thấy liên hệ rõ** (p ≥ 0,05). "
-                f"Mối liên hệ yếu, không phải nhân quả."
+                f"- **Nhóm {ten_x}**: tỉ lệ GPA ≥ 3.2 là {a_pct:.1f}% (n = {n_x}) so với {ty_le_chung:.1f}% toàn mẫu "
+                f"— **chưa thấy liên hệ rõ** (p ≥ 0,05). Mối liên hệ yếu ({chuoi_rho}), không phải nhân quả."
             )
         else:
             st.write(
-                f"- *Nhóm {ten_x} có tỉ lệ GPA từ 3.2 trở lên là {a_pct:.1f}% (n = {n_x}) "
-                f"so với {ty_le_chung:.1f}% toàn mẫu. Mối liên hệ yếu, không phải nhân quả.*"
+                f"- *Nhóm {ten_x} có tỉ lệ GPA ≥ 3.2 là {a_pct:.1f}% (n = {n_x}) so với {ty_le_chung:.1f}% toàn mẫu. "
+                f"Mối liên hệ yếu ({chuoi_rho}), không phải nhân quả.*"
             )
 
     # 5. Bảng đối chiếu bên dưới
     st.markdown("#### 📋 Bảng đối chiếu số liệu theo nhóm gộp")
-    bang_hien_thi = bang_gop[
-        ["Nhóm gộp", "n", "Số SV GPA ≥ 3.2", "Tỉ lệ GPA từ 3.2 (%)", "Đủ mẫu"]
-    ].rename(columns={"n": "Số SV (n)"})
-    st.dataframe(bang_hien_thi, width="stretch", hide_index=True)
+    bang_hien_thi = bang_gop[["Nhóm gộp", "n", "Số SV GPA ≥ 3.2", "Tỉ lệ GPA từ 3.2 (%)", "Đủ mẫu"]]
+    st.dataframe(bang_hien_thi.rename(columns={"n": "Số SV (n)"}), width="stretch", hide_index=True)
 
-    # 6. Mục "Gợi ý cho nhà trường" từ 2 yếu tố điểm thấp nhất (thích nghi 3,46, phương pháp học 3,62)
+    # 6. Gợi ý cho nhà trường
     st.markdown("---")
     st.markdown("#### 🏫 Gợi ý cho nhà trường")
-    diem_thich_nghi = d["Mức độ thích nghi ĐH_so"].mean() if "Mức độ thích nghi ĐH_so" in d.columns else 3.46
-    diem_pp_hoc = d["Phương pháp học tập_so"].mean() if "Phương pháp học tập_so" in d.columns else 3.62
     st.info(
-        "Trong 9 câu đánh giá (thang 1–5), hai yếu tố có điểm trung bình thấp nhất trên tập khảo sát thật là "
-        f"**Mức độ thích nghi ĐH (3,46)** và **Phương pháp học tập (3,62)** "
-        f"*(trên bộ lọc hiện tại: Thích nghi = {diem_thich_nghi:.2f}, Phương pháp học = {diem_pp_hoc:.2f})*.\n\n"
-        "- **Hỗ trợ thích nghi môi trường đại học (3,46):** Tăng cường các buổi định hướng đầu khóa, "
-        "cố vấn học tập theo sát sinh viên và hoạt động kết nối đồng trang lứa để giảm bỡ ngỡ khi chuyển cấp.\n"
-        "- **Bồi dưỡng phương pháp học tập (3,62):** Tổ chức chuyên đề hướng dẫn kỹ năng tự học, "
-        "đọc tài liệu học thuật và quản lý thời gian ôn tập.\n"
-        "- *Lưu ý học thuật:* Các con số thống kê chỉ phản ánh mức độ hài lòng/tự đánh giá của sinh viên; "
-        "mối liên hệ với GPA là rất yếu (|ρ| ≤ 0,13) và **không khẳng định quan hệ nhân quả**."
+        "Hai yếu tố có điểm trung bình thấp nhất là **Mức độ thích nghi ĐH (3,46)** và **Phương pháp học tập (3,62)**.\n\n"
+        "- **Hỗ trợ thích nghi:** Tăng cường buổi định hướng, cố vấn học tập.\n"
+        "- **Bồi dưỡng phương pháp:** Tổ chức chuyên đề tự học, quản lý thời gian.\n"
+        f"- *Lưu ý:* Mối liên hệ với GPA là rất yếu ({chuoi_rho}) và **không khẳng định quan hệ nhân quả**."
     )
